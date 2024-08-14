@@ -1,0 +1,32 @@
+.user-data {
+    background-color: rgb(229, 217, 217);
+}
+
+.user-data {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.inner {
+    margin: auto;
+}
+
+.mat__header img{
+    width: 100%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.example-card:hover .mat__header img {
+    border-radius: 0%;
+}
+
+// .example-card {
+//     width: 80%;
+//     margin: auto;
+// }

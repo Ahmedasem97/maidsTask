@@ -1,0 +1,16 @@
+<section class="user-data">
+    <div class="inner text-center">
+        <mat-card class="example-card shadow rounded " appearance="outlined">
+            <mat-card-header class="mat__header">
+                <img mat-card-image class="" [src]="userData.avatar"
+                    [alt]="userData.first_name">
+            </mat-card-header>
+            <mat-card-content class="text-center p-3">
+                <h2>{{userData.first_name}} {{userData.last_name}}</h2>
+                <h2>{{userData.email}}</h2>
+            </mat-card-content>
+        </mat-card>
+
+        <button class="btn btn-success btn-lg mt-5" (click)="backToUsers()">back to all User</button>
+    </div>
+</section>
